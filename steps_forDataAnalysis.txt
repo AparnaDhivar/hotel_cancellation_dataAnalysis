@@ -1,0 +1,32 @@
+Data Analysis
+
+1.importing libraries - pandas,numpy,matplotlib,seaborn
+
+2.importing csv file
+
+3.exploratory data analysis and cleaning
+a - head()
+b - tail()
+c - shape - to check no. of rows nd columns
+d - columns - to check names of columns
+e - info() - to check null data and type of data
+f - convert the data nd time data in datetime format
+g - describe(),describe(include=object) - gives total count,mean,min,max and so on ,gives no. of unique values.
+h - unique() - to take out unique values of object data
+i - isnull().sum()
+j - drop - the columns if not in use nd have more null values
+k - dropna - drops the null rows
+l - describe() - it may help to find outlier, the value which donot fall under the particular range we can exclude it.
+
+4.data analysis and visualization
+a - analyse cancel nd non cancel data plot graph
+b - analyse cancellation for city and resort hotel,plot the graph
+c - using average daily rate(adr) plot prices of city and resort hotels (one of the reason for cancalletion)
+d - analyse month vise cancalletion and plot the graph
+e - find pricing of cancelled booking in particular months and plot graph
+f - cancellation analysis for top 10 countries
+e - market segment analysis(through which mode more customers come and cancalletion analysis)
+f - average daily rate analysis for cancellation and not cancelled.
+
+conclusion - high price = high cancellation
+
